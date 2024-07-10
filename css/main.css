@@ -1,0 +1,231 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+body{
+    background-color: #1e202b;
+}
+
+.navbar{
+    background-color: #1e202b;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.navbar .logo{
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+.navbar .logo-text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.navbar .logo-text h1{
+   font-size:16px ;
+   font-weight: 700;
+   font-family:"Roboto" ;
+   color: aliceblue;
+   margin-top: 15px;
+   
+}
+.navbar .logo-text p{
+    font-size:10px ;
+    font-weight: 300;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+   
+}
+ .home-nav{
+    padding: 5px 40px;
+    border: solid 2px #009AD8;
+    border-radius: 30px;
+    color: #009AD8;
+}
+.collapse a {
+    margin-right: 38px;
+    color: aliceblue;
+    font-size:15px ;
+    font-weight: 400;
+    font-family:"Roboto" ;
+    transition: .3s;
+
+}
+.collapse a:hover{
+    padding: 5px 25px;
+    border: solid 2px #009AD8;
+    border-radius: 30px;
+    color: #009AD8;
+}
+.town{
+    padding: 70px 0;
+    background-size: cover;
+    min-height: 350px;
+}
+form .find{
+    background: #1e202b;
+    width: 100%;
+    color: aliceblue;
+    padding: 20px 50px ;
+    border: none;
+    border-radius: 30px;
+}
+form .bot{
+    position: absolute;
+    background: #009AD8;
+    color: aliceblue;
+    padding: 0px 40px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 30px;
+    border: none;
+}
+
+.cardss{
+    background: #1e202b;
+    margin-top: -150px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ .card{
+    background-color:#3e404d77 ;
+    border-radius: 10px;
+}
+.card-title{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+}
+.card-subtitle{
+    font-size: 18px;
+    font-weight: 400;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+    padding-left: 20px;
+
+}
+.card h2{
+    font-size: 90px;
+    font-weight: 700;
+    font-family:"Roboto" ;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+.foot h3{
+    font-size: 14px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 20px;
+}
+.foot img{
+    font-size: 14px;
+    color:#BFC1C8 ;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    
+}
+.card-2{
+    background-color:#2e2f3577 ;
+
+}
+.card-2 h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"Roboto" ;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.card-2 h5{
+    font-size: 16px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+}
+.card-2 h4{
+    font-size: 14px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+}
+.card-3{
+    background-color:#3e404d77 ;
+}
+.card-3 h1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family:"Roboto" ;
+    color: #FFFFFF;
+    padding-top: 35px;
+}
+.card-3 h5{
+    font-size: 16px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+    color:#BFC1C8 ;
+}
+.card-3 h4{
+    font-size: 14px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+}
+footer{
+    background-color:#3e404d77 ;
+    padding-top: 36px;
+    padding-bottom: 30px;
+    
+}
+form .email{
+    background: #1e202b;
+    width: 100%;
+    color: aliceblue;
+    padding: 20px 50px ;
+    border: none;
+    border-radius: 30px;
+}
+form .Subs{
+    position: absolute;
+    background: #009AD8;
+    color: aliceblue;
+    padding: 0px 40px;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 30px;
+    border: none;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family:"Roboto" ;
+    color: #BFC1C8;
+    padding-top:5px ;
+}
+.social-links{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.social-links i{
+  padding-top: 12px;
+   
+}
+.social-links a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    transition: .5s;
+}
+.social-links a:hover{
+    background-color: #009ad8;
+    color: #FFFFFF;
+}
